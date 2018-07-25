@@ -1,0 +1,105 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  color: #7A7A71;
+  font-size: 13px
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px
+  color: #7A7A71;
+}
+
+h1 {
+  color: #28536B
+}
+
+p {
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #7A7A71;
+}
+
+a:hover {
+  color: #28536B
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  }
+
+
+@media (max-width: 720px) {
+  .container {
+  width: 300px;
+  margin: 0 auto;
+  }
+}
+
+.card {
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 1px 1px 3px lightgray;
+}
+
+.buton {
+  background-color: #28536B;
+  border-radius: 5px;
+  color : white;
+  padding: 10px
+}
+
+.buton:hover {
+  background-color: #426C84;
+  color: white;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.img-shadow {
+  border: 1px solid lightgray;
+  box-shadow: 2px 1px 4px lightgray
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.logo-size {
+  font-size: 25px
+}
+
+.image-170px {
+  width: 120px
+}
+
+.paragraph-spacing {
+  padding : 10px;
+}
+
+.line-nospacing {
+  line-height: 0
+}
+

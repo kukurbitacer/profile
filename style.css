@@ -33,6 +33,18 @@ a:hover {
   margin: 0 auto;
   }
 
+.sidebar {
+  background-color: #7A7A71;
+  position: fixed;
+  width: 100px;
+  height : 100%;
+  line-height: 5;
+}
+
+.page-content {
+  margin-left: 100px
+}
+
 
 @media (max-width: 720px) {
   .container {
@@ -101,5 +113,13 @@ a:hover {
 
 .line-nospacing {
   line-height: 0
+}
+
+.sidebar a {
+  color: white;
+}
+
+.sidebar a:hover {
+  color :#28536B;
 }
 
